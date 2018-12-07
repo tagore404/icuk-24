@@ -22,7 +22,7 @@
         local_action: lineinfile 
                       dest="/tmp/hosts" 
                       regexp={{ item.public_ip }} 
-                      insertafter="[customer]" line={{ item.public_ip }}
+                      insertafter="[order]" line={{ item.public_ip }}
         with_items: "{{ ec2.instances }}"
 
 
