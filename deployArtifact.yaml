@@ -1,6 +1,6 @@
 ---
 -
-  hosts: all
+  hosts: order
   tasks:
     -
       name: "uninstall Java JRE rpm from a local file"
