@@ -20,3 +20,4 @@
     -
       name: "Run Artifact"
       shell: nohup java -jar /tmp/oms-order-service-0.0.1-SNAPSHOT.jar &
+      
